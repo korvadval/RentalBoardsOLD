@@ -1,0 +1,34 @@
+hr{
+    width: 100px;
+    height: 5px;
+    background-color: #617F9E;
+}
+.headerAdvan{
+    padding: 30px 0px 0px 0px;
+    text-shadow: none;
+    color: #18191A;
+    font-size: 40px;
+}
+.containerAdvan{
+    padding: 30px 0px 30px 0px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.itemAdvan{
+    cursor: pointer;
+}
+.faIconAdvan{
+    color: #617F9E;
+    font-size: 75px;
+}
+.tAdvan{
+    color: #617F9E;
+    font-family: Arial;
+    font-size: 19px;
+    text-shadow: none;
+}

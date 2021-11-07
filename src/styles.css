@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    font: 15px sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.unselectable {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+    -khtml-user-select: none; /* Konqueror */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+}
+.content{
+    margin: 70px 0px 0px 0px !important;
+}
+@media only screen and (max-width: 700px){
+    .content{
+        margin: 45px 0px 0px 0px !important;
+    }
+}
+.text{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 46px;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(0 0 0);
+}

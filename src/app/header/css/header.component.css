@@ -1,0 +1,62 @@
+.headerMain{
+    background-color: #6A92BB;
+    position: fixed;
+    overflow: hidden;
+    text-align: left;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 70px;
+    text-align: center;
+}
+.showPanelButton,
+.hidePanelButton,
+.infoHeader{
+    display: none;
+}
+.headerButtons{
+    position: relative;
+    display: -webkit-inline-box;
+}
+a{
+    text-decoration:none;
+    color: inherit;
+}
+.button{
+    position: relative;
+    list-style-type: none;
+    padding: 0 15px 0 15px;
+    height: 45px
+}
+.button:hover{
+    background-color: #617f9e;
+    cursor: pointer;
+}
+.contactUs{
+    border-style: ridge;
+    top: -2px;
+    font-weight: normal;
+    width: 100px;
+}
+.leftPanel{
+    display: none;    
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #6A92BB;
+}
+.panelButtons{
+    position: relative;
+    padding: 45px 0 0 0;
+    z-index: 1;
+}
+.show{
+    width: -webkit-fill-available;
+}
+.hide{
+    width: 0;
+}
+.hidenButtons{
+    display: none;
+}
