@@ -8,4 +8,6 @@
         </div>
     </div>
 </div>
-<app-modal-dialog-window (onChanged)="hideDialog($event)" *ngIf=needDialog [description]="currentDisc.description"></app-modal-dialog-window>
+<app-modal-dialog-window (onChanged)="hideDialog($event)" *ngIf=needDialog 
+                         [description]="discountsList[currentDiscId].description"
+                         [img]="discountsList[currentDiscId].img"></app-modal-dialog-window>

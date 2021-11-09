@@ -13,6 +13,7 @@ export class ModalDialogWindowComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log(this.img)
   }
 
   stopPropagationHandler(event:any){
