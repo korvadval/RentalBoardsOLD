@@ -1,0 +1,18 @@
+.backgroungModalWindow{
+    width: 100%;
+    height: 100%;
+    background-color: #000000a8;
+    position: fixed;
+    top: 0;
+    text-align: -webkit-center;
+}
+.containerModalWindow{
+    position: relative;
+    top: 15%;
+    background-color: white;
+    width: 80%;
+    height: 70%;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: #6A92BB;
+}

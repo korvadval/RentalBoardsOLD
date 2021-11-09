@@ -9,6 +9,7 @@ import { AdvantagesComponent } from './advantages/advantages.component';
 import { CostsComponent } from './costs/costs.component';
 import { DiscountsComponent } from './discounts/discounts.component';
 import { StoreComponent } from './store/store.component';
+import { ModalDialogWindowComponent } from './modal-dialog-window/modal-dialog-window.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { StoreComponent } from './store/store.component';
     AdvantagesComponent,
     CostsComponent,
     DiscountsComponent,
-    StoreComponent
+    StoreComponent,
+    ModalDialogWindowComponent
   ],
   imports: [
     BrowserModule,

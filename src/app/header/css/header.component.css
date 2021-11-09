@@ -16,7 +16,7 @@
 }
 .headerButtons{
     position: relative;
-    display: -webkit-inline-box;
+    display: inline-flex;
 }
 a{
     text-decoration:none;
@@ -35,12 +35,13 @@ a{
 .contactUs{
     border-style: ridge;
     top: -2px;
+    left: 50px;
     font-weight: normal;
     width: 100px;
 }
 .leftPanel{
     display: none;    
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     bottom: 0;

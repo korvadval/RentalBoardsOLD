@@ -1,1 +1,11 @@
-<p>discounts works!</p>
+<span class="anchor" id="discounts"></span>
+<div class="headerDisc text unselectable">НАШИ АКЦИИ</div>
+<hr />
+<div class="containerDisc unselectable">
+    <div class="listDisc">
+        <div *ngFor="let disc of discountsList" class="itemDisc" (click)="showDialog(disc.id)">
+            <img class="imgDisc" src={{disc.img}} />
+        </div>
+    </div>
+</div>
+<app-modal-dialog-window (onChanged)="hideDialog($event)" *ngIf=needDialog [description]="currentDisc.description"></app-modal-dialog-window>
