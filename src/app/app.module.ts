@@ -8,8 +8,9 @@ import { HomeComponent } from './home/home.component';
 import { AdvantagesComponent } from './advantages/advantages.component';
 import { CostsComponent } from './costs/costs.component';
 import { DiscountsComponent } from './discounts/discounts.component';
-import { StoreComponent } from './store/store.component';
 import { ModalDialogWindowComponent } from './modal-dialog-window/modal-dialog-window.component';
+import { FooterComponent } from './footer/footer.component';
+import { CustomMapComponent } from './custom-map/custom-map.component';
 
 @NgModule({
   declarations: [
@@ -19,8 +20,9 @@ import { ModalDialogWindowComponent } from './modal-dialog-window/modal-dialog-w
     AdvantagesComponent,
     CostsComponent,
     DiscountsComponent,
-    StoreComponent,
-    ModalDialogWindowComponent
+    ModalDialogWindowComponent,
+    FooterComponent,
+    CustomMapComponent
   ],
   imports: [
     BrowserModule,

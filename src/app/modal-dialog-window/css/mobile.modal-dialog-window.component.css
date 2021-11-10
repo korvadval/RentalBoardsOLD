@@ -2,4 +2,7 @@
     .containerModalWindow{
         width: 90%;
     }
+    .descriptionModalWindow{
+        font-size: 12px;
+    }
 }

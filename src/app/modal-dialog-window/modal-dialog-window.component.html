@@ -1,6 +1,6 @@
 <div class="backgroungModalWindow" (click)="hideDialog()">
     <div class="containerModalWindow" (click)="stopPropagationHandler($event)">
-        <div class="imageModalWindow"><img src="{{img}}"/></div>
+        <div class="imageModalWindow unselectable"><img src="{{img}}"/></div>
         <div class="text descriptionModalWindow">{{description}}</div>
     </div>
 </div>

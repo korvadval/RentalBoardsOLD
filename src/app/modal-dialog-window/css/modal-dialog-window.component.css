@@ -8,16 +8,17 @@
 }
 .containerModalWindow{
     position: relative;
-    top: 5%;
+    top: 7%;
     background-color: white;
-    width: 55%;
-    height: 90%;
+    min-width: 300px;
+    max-width: 580px;
+    max-height: 780px;
     border-radius: 10px;
     border-style: groove;
     border-color: #6A92BB;
 }
 .imageModalWindow{
-    margin: 5px 0 0 0;
+    margin: 5px 5px 0px 5px;
     max-width: 500px;
     min-width: 285px;
 }
@@ -33,7 +34,6 @@ img{
     font-size: 17px;
     line-height: 24px;
     text-shadow: none;
-    white-space: pre;
+    white-space: pre-wrap;
     position: relative;
-    left: -10px;
 }

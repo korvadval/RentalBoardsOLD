@@ -1,6 +1,6 @@
 .backgroundHome{
     background-image: url(src/assets/images/homeBG.jpg);
-    height: 753px;
+    height: 750px;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
@@ -37,7 +37,7 @@
 .backgroundInfoHome{
     background-color: #00000073;
     width: 500px;
-    height: 160px;
+    height: 120px;
 }
 .tHome4{
     font-weight: normal;

@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { faShoppingCart, faUserFriends,faUserCheck,faSmile,faCogs,faHandHoldingUsd,faMoneyBillAlt } from '@fortawesome/free-solid-svg-icons';
+import { faShoppingCart, faUserFriends, faUserCheck,
+         faSmile, faCogs, faHandHoldingUsd, faMoneyBillAlt } from '@fortawesome/free-solid-svg-icons';
+         
 @Component({
   selector: 'app-advantages',
   templateUrl: './advantages.component.html',

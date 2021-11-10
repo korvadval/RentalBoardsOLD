@@ -26,7 +26,8 @@ a{
     position: relative;
     list-style-type: none;
     padding: 0 15px 0 15px;
-    height: 45px
+    height: 45px;
+    font-size: 20px;
 }
 .button:hover{
     background-color: #617f9e;

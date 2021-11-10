@@ -27,7 +27,7 @@ export class DiscountsComponent implements OnInit {
     
     По всем интересующим вопросам обращайтесь по телефону 
     272-70-42`,
-      img:"../assets/images/discounts/discount1.png"},
+    img:"../assets/images/discounts/discount1.png"},
     {id:1, description:`Выдался свободный будний день?
     Не хочешь сидеть дома?🤔
     

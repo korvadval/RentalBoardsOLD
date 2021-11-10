@@ -26,11 +26,6 @@ hr{
 .content{
     margin: 70px 0px 0px 0px !important;
 }
-@media only screen and (max-width: 700px){
-    .content{
-        margin: 45px 0px 0px 0px !important;
-    }
-}
 .text{
     color: #FFFFFF;
     font-weight: bold;
@@ -39,4 +34,12 @@ hr{
     line-height: 46px;
     text-align: center;
     text-shadow: 1px 1px 1px rgb(0 0 0);
+}
+@media only screen and (max-width: 700px){
+    .content{
+        margin: 45px 0px 0px 0px !important;
+    }
+    .anchor{
+        top: -45px;
+    }
 }

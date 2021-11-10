@@ -18,6 +18,9 @@
     margin: 20px 10px 20px 10px;
     width: 250px;
     height: 185px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #00000099;
     cursor: pointer;
 }
 .imgDisc{

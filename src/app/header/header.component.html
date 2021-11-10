@@ -12,9 +12,9 @@
 <div class="leftPanel hide">
     <fa-icon class="text hidePanelButton" [icon]="faTimes" (click)="hidePanel()"></fa-icon>
     <ul class="text panelButtons hidenButtons">
-        <li class="button">Главная</li>
-        <li class="button">Преимущества</li>
-        <li class="button">Стоимость</li>
-        <li class="button">Акции</li>
+        <a href="#home"><li class="button" (click)="hidePanel()">Главная</li></a>
+        <a href="#advantages"><li class="button" (click)="hidePanel()">Преимущества</li></a>
+        <a href="#costs"><li class="button" (click)="hidePanel()">Стоимость</li></a>
+        <a href="#discounts"><li class="button" (click)="hidePanel()">Акции</li></a>
     </ul>
 </div>
