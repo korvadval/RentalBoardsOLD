@@ -41,6 +41,7 @@ a{
     left: 0;
     bottom: 0;
     background: #6A92BB;
+    z-index: 100;
 }
 .panelButtons{
     position: relative;
