@@ -26,10 +26,10 @@ import { trigger, transition, style, animate, state, keyframes } from '@angular/
         opacity: 1,
       })),
       state('small', style({
-        opacity: 0.8,
+        opacity: 0.6,
       })),
       transition('big <=> small', [
-        animate('0.8s')
+        animate('1.2s')
       ]),
     ])
   ],
