@@ -16,6 +16,7 @@
 }
 .itemAdvan{
     cursor: pointer;
+    width: 200px;
 }
 .faIconAdvan{
     color: #617F9E;
@@ -26,4 +27,5 @@
     font-family: Arial;
     font-size: 19px;
     text-shadow: none;
+    line-height: 23px;
 }

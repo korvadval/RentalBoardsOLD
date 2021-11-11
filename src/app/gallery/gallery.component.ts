@@ -1,10 +1,23 @@
 import { Component, OnInit } from '@angular/core';
 import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons';
+import { trigger, transition, style, animate } from '@angular/animations';
 
 @Component({
   selector: 'app-gallery',
   templateUrl: './gallery.component.html',
-  styleUrls: ['./css/gallery.component.css','./css/mobile.gallery.component.css']
+  styleUrls: ['./css/gallery.component.css','./css/mobile.gallery.component.css'],
+  animations: [
+    trigger('swipeAnim', [
+      transition(':increment', [
+        style({ opacity: 0 }),
+        animate('1s', style({ opacity: 1 })),
+      ]),
+      transition(':decrement', [
+        style({ opacity: 0 }),
+        animate('1s', style({ opacity: 1 }))
+      ])
+    ]),
+  ],
 })
 export class GalleryComponent implements OnInit {
   faAngleLeft=faAngleLeft;

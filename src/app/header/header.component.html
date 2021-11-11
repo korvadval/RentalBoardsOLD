@@ -6,12 +6,12 @@
         <a href="#advantages"><li class="button">Преимущества</li></a>
         <a href="#costs"><li class="button">Стоимость</li></a>
         <a href="#discounts"><li class="button">Акции</li></a>
-        <a href="https://vk.com/write-103375593"><li class="button contactUs">Связаться</li></a>
+        <a href="https://api.whatsapp.com/send/?phone=79676127042&text&app_absent=0"><li class="button contactUs">Связаться</li></a>
     </ul>
 </div>
-<div class="leftPanel hide">
+<div class="leftPanel" [@openClosePanel]="isPanelOpen ? 'open' : 'closed'">
     <fa-icon class="text hidePanelButton" [icon]="faTimes" (click)="hidePanel()"></fa-icon>
-    <ul class="text panelButtons hidenButtons">
+    <ul class="text panelButtons">
         <a href="#home"><li class="button" (click)="hidePanel()">Главная</li></a>
         <a href="#advantages"><li class="button" (click)="hidePanel()">Преимущества</li></a>
         <a href="#costs"><li class="button" (click)="hidePanel()">Стоимость</li></a>
@@ -20,7 +20,9 @@
 </div>
 
 <a href="tel:+73912727042">
-    <div class="phoneButtonMobile text">
+    <div class="phoneButtonMobile text"    
+         (@compressIconPhone.done)="compressAnimDone()"
+         [@compressIconPhone]="isIconBig ? 'big' : 'small'">
         <fa-icon [icon]="faPhone"></fa-icon>
     </div>
 </a>

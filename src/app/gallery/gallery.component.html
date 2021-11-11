@@ -1,7 +1,7 @@
 <div class="backgroundGallery unselectable">
     <div class="containerGallery">
         <div class="swipeButton left" (click)="swipePhoto(-1)"><fa-icon [icon]="faAngleLeft"></fa-icon></div>
-        <img class="itemGallery" src="../assets/images/photos/photo{{curPhoto}}.jpg"/>
+        <img [@swipeAnim]="curPhoto" class="itemGallery" src="../assets/images/photos/photo{{curPhoto}}.jpg"/>
         <div class="swipeButton right" (click)="swipePhoto(1)"><fa-icon [icon]="faAngleRight"></fa-icon></div>
     </div>
 </div>
