@@ -23,9 +23,6 @@ hr{
     -ms-user-select: none; /* Internet Explorer/Edge */
     user-select: none;
 }
-.content{
-    margin: 70px 0px 0px 0px !important;
-}
 .text{
     color: #FFFFFF;
     font-weight: bold;

@@ -22,13 +22,30 @@
         left: 5px;
         top: 2px;
     }
-    .leftPanel{
-        display: block;    
-    }
     .infoHeader{
         display: -webkit-inline-box;
     }
     .headerButtons{
         display: none;
+    }
+    .phoneButtonMobile
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        position: fixed;
+        bottom: 30px;
+        right: 15px;
+
+        font-weight: bold;
+        font-size: 54px;
+        line-height: 0;
+        text-shadow: none;
+
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background: #6A92BB;
     }
 }

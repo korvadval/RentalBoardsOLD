@@ -1,0 +1,19 @@
+.backgroundGallery{
+    text-align: -webkit-center;
+}
+.containerGallery{
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.swipeButton{    
+    opacity: 60%;
+    font-size: 70px;
+    cursor: pointer;
+    z-index: 1;
+}
+.itemGallery{
+    width: calc(100% - 70px);
+}

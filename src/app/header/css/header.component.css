@@ -2,17 +2,11 @@
     background-color: #6A92BB;
     position: fixed;
     overflow: hidden;
-    text-align: left;
     left: 0;
     top: 0;
     right: 0;
     height: 70px;
     text-align: center;
-}
-.showPanelButton,
-.hidePanelButton,
-.infoHeader{
-    display: none;
 }
 .headerButtons{
     position: relative;
@@ -40,9 +34,9 @@ a{
     font-weight: normal;
     width: 100px;
 }
-.leftPanel{
-    display: none;    
+.leftPanel{ 
     position: fixed;
+    width: -webkit-fill-available;
     top: 0;
     left: 0;
     bottom: 0;
@@ -54,11 +48,12 @@ a{
     z-index: 1;
 }
 .show{
-    width: -webkit-fill-available;
+    display: block;
 }
+.phoneButtonMobile,
+.showPanelButton,
+.hidePanelButton,
+.infoHeader,
 .hide{
-    width: 0;
-}
-.hidenButtons{
     display: none;
 }

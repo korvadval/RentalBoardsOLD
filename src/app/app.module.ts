@@ -11,6 +11,7 @@ import { DiscountsComponent } from './discounts/discounts.component';
 import { ModalDialogWindowComponent } from './modal-dialog-window/modal-dialog-window.component';
 import { FooterComponent } from './footer/footer.component';
 import { CustomMapComponent } from './custom-map/custom-map.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CustomMapComponent } from './custom-map/custom-map.component';
     DiscountsComponent,
     ModalDialogWindowComponent,
     FooterComponent,
-    CustomMapComponent
+    CustomMapComponent,
+    GalleryComponent,
   ],
   imports: [
     BrowserModule,

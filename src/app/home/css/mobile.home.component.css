@@ -1,4 +1,7 @@
 @media only screen and (max-width: 700px){
+    .backgroundHome{
+        margin: 45px 0 0 0;
+    }
     .imageHome{
         padding: 20px 0 20px 0px;
     }

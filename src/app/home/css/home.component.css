@@ -1,4 +1,5 @@
 .backgroundHome{
+    margin: 70px 0 0 0;
     background-image: url(src/assets/images/homeBG.jpg);
     height: 750px;
     background-repeat: no-repeat;

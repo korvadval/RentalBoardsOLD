@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faTimes, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 
 @Component({
@@ -10,17 +10,20 @@ import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 export class HeaderComponent implements OnInit {
   faBars=faBars;
   faTimes=faTimes;
+  faPhone=faPhone;
+  
   constructor() { }
 
   ngOnInit(): void {
+    
   }
 
   showPanel(){
     document.getElementsByClassName("leftPanel")[0].className="leftPanel show";
-    document.getElementsByClassName("panelButtons")[0].className="text panelButtons";
+    document.getElementsByClassName("panelButtons")[0].className="text panelButtons show";
   }
   hidePanel(){
     document.getElementsByClassName("leftPanel")[0].className="leftPanel hide";
-    document.getElementsByClassName("panelButtons")[0].className="text panelButtons hidenButtons";
+    document.getElementsByClassName("panelButtons")[0].className="text panelButtons hide";
   }
 }
