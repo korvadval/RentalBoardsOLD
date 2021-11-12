@@ -5,6 +5,7 @@
     position: fixed;
     top: 0;
     text-align: -webkit-center;
+    z-index: 2;
 }
 .containerModalWindow{
     position: relative;
