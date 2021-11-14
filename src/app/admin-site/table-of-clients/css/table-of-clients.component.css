@@ -1,0 +1,35 @@
+.containerTable{
+    padding: 50px 0 0 0;
+    width: 100%;
+}
+.tableOfClients{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background: #cbcbcb;
+}
+.rowClient{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    border-style: groove;
+    width: -webkit-fill-available;
+    margin: 2px 5px 2px 5px;
+}
+.rowClient:hover{
+    background-color: #bbbbbb
+}
+.fieldClient{
+    border-style: inherit;
+    border-width: 0 2px 0 0px;
+    padding: 10px;
+    white-space: pre-wrap;
+    height: 50px;
+    cursor: pointer;
+    overflow: auto;
+}

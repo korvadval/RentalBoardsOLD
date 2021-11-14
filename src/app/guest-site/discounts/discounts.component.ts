@@ -128,7 +128,7 @@ export class DiscountsComponent implements OnInit {
   showDialog(id:number){
     this.currentDiscId=id;
     this.needDialog=true;
-    document.getElementsByTagName("body")[0].className="notSkrolling"
+    document.getElementsByTagName("body")[0].className="notScrolling"
   }
   hideDialog(e:any){
     this.needDialog=false;

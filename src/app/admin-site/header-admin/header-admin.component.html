@@ -1,0 +1,7 @@
+<div class="headerAdmin unselectable">
+    <ul class="text headerButtons">
+       <li class="button" (click)="showAddDialog()">Добавить клиента</li>
+       <li class="button">Показать архив</li>
+    </ul>
+</div>
+<app-dialog-add-client *ngIf=needAddDialog></app-dialog-add-client>

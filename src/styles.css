@@ -3,7 +3,7 @@ body {
     margin: 0;
     font: 15px sans-serif;
 }
-.notSkrolling{
+.notScrolling{
     overflow: hidden;
 }
 a{
