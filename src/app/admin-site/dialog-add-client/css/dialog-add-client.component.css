@@ -9,11 +9,77 @@
 }
 .containerAddDialog{
     position: relative;
-    top: 5%;
+    top: 150px;
     background-color: white;
-    width: 85%;
-    height: 90%;
+    width: 590px;
+    height: 600px;
     border-radius: 10px;
     border-style: groove;
     border-color: #6A92BB;
+}
+input{
+    height: 16px;
+    padding: 2px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: flex-start;
+    margin: 5px 0px 0px 15px;
+}
+.container input{
+    width: 200px
+}
+.container #checkbox{
+    width: 17px;
+    height: 17px;
+}
+.cRateAndCost{
+    display: flex;
+    flex-direction: row;
+}
+.containerEquipment{
+    width: -webkit-fill-available;
+    margin: 15px 10px 10px 10px;
+    border-style: groove;
+    border-width: 1px;
+    display: flex;
+}
+.columnItem{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0 5px 0px;
+}
+.itemEquipment{
+    width: 280px;
+    display: flex;
+    justify-content: space-around;
+    margin: 3px;
+}
+.itemEquipment label{
+    width: 80px;
+    text-align: left;
+}
+.itemEquipment #count,
+.container #count{
+    width: 30px;
+}
+.itemEquipment #cost{
+    width: 60px;
+}
+.containerComment{
+    display: flex;
+    margin: 15px 10px 10px 10px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.containerComment textarea{
+    width: 565px;
+    padding: 2px;
+}
+.buttonAddClient{
+    width: 571px;
+    height: 80px;
 }

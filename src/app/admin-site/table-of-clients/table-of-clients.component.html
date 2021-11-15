@@ -1,8 +1,8 @@
 <div class="containerTable">
     <div class="tableOfClients">
-        <div *ngFor='let client of listOfClients' class="rowClient">
+        <div *ngFor='let client of listOfClients' class="rowClient {{client.state}}">
             <div class="fieldClient" style='width: 150px;'>{{client.name}}</div>
-            <div class="fieldClient" style='width: 120px;'>{{client.phone}}</div>
+            <div class="fieldClient" style='width: 150px;'>{{client.phone}}</div>
             <div class="fieldClient" style='width: 120px;'>{{client.rate}}</div>
             <div class="fieldClient" style='width: 200px;'>{{client.equipment}}</div>
             <div class="fieldClient" style='width: 100px;'>{{client.cost}}</div>

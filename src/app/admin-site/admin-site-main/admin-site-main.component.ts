@@ -8,12 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class AdminSiteMainComponent implements OnInit {
 
   isLogined=false;
+  role="";
 
   constructor() { }
 
   ngOnInit(): void {
-    if(localStorage.getItem("token")){
+    let buf=localStorage.getItem("role");
+    if(buf!=null){
       this.isLogined=true;
+      this.role=buf;
     }
   }
 

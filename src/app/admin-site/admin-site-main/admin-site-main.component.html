@@ -1,2 +1,3 @@
-<app-header-admin></app-header-admin>
-<app-table-of-clients></app-table-of-clients>
+<app-login *ngIf=!isLogined></app-login>
+<app-header-admin *ngIf=isLogined></app-header-admin>
+<app-table-of-clients *ngIf=isLogined></app-table-of-clients>

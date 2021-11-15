@@ -22,7 +22,7 @@
     margin: 2px 5px 2px 5px;
 }
 .rowClient:hover{
-    background-color: #bbbbbb
+    background-color: #bbbbbb;
 }
 .fieldClient{
     border-style: inherit;
@@ -32,4 +32,10 @@
     height: 50px;
     cursor: pointer;
     overflow: auto;
+}
+.delayedRefund{
+    background-color: #ff000066 !important;
+}
+.prepayment{
+    background-color: #00800087 !important;
 }

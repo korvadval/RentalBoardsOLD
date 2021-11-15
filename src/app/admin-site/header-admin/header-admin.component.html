@@ -1,7 +1,12 @@
 <div class="headerAdmin unselectable">
-    <ul class="text headerButtons">
-       <li class="button" (click)="showAddDialog()">Добавить клиента</li>
-       <li class="button">Показать архив</li>
+    <ul class="headerButtons">
+       <li class="text button" (click)="showAddDialog()">Добавить клиента</li>
+       <li class="text button">Показать архив</li>
+       <li class="text button" *ngIf=isAdmin>Изменить цены</li>
+       <li class="text button" *ngIf=isAdmin>Инкассация</li>
+       <li class="text button" *ngIf=isAdmin>Отчеты</li>
+       <li class="text button" *ngIf=isAdmin>Изменить пароли</li>              
     </ul>
+    <li class="text button exitButton" (click)="unloggining()">Выход</li>
 </div>
 <app-dialog-add-client *ngIf=needAddDialog></app-dialog-add-client>

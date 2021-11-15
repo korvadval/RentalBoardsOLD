@@ -19,10 +19,11 @@ import { AdminSiteMainComponent } from './admin-site/admin-site-main/admin-site-
 import { HeaderAdminComponent } from './admin-site/header-admin/header-admin.component';
 import { TableOfClientsComponent } from './admin-site/table-of-clients/table-of-clients.component';
 import { DialogAddClientComponent } from './admin-site/dialog-add-client/dialog-add-client.component';
+import { LoginComponent } from './admin-site/login/login.component';
 
 const appRoutes: Routes =[
-  {path:'', component:AdminSiteMainComponent},
-  {path:'*',component:GuestSiteMainComponent},
+  {path:'admin', component:AdminSiteMainComponent},
+  {path:'',component:GuestSiteMainComponent},
 ]
 
 @NgModule({
@@ -42,6 +43,7 @@ const appRoutes: Routes =[
     HeaderAdminComponent,
     TableOfClientsComponent,
     DialogAddClientComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
