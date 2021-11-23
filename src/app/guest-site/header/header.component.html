@@ -1,12 +1,12 @@
 <div class="headerMain unselectable">
     <fa-icon class="text showPanelButton" [icon]="faBars" (click)="showPanel()"></fa-icon>
     <div class="text infoHeader"> Будни 10:00 - 22:00<br>СБ, ВС 9:00 - 22:00</div>
-    <ul class="text headerButtons">
-        <a href="#home"><li class="button">Главная</li></a>
-        <a href="#advantages"><li class="button">Преимущества</li></a>
-        <a href="#costs"><li class="button">Стоимость</li></a>
-        <a href="#discounts"><li class="button">Акции</li></a>
-        <a href="https://api.whatsapp.com/send/?phone=79676127042&text&app_absent=0"><li class="button contactUs">Связаться</li></a>
+    <ul class="headerButtons">
+        <a href="#home"><li class="button text">Главная</li></a>
+        <a href="#advantages"><li class="button text">Преимущества</li></a>
+        <a href="#costs"><li class="button text">Стоимость</li></a>
+        <a href="#discounts"><li class="button text">Акции</li></a>
+        <a href="https://api.whatsapp.com/send/?phone=79676127042&text&app_absent=0"><li class="button contactUs text">Связаться</li></a>
     </ul>
 </div>
 <div class="leftPanel" [@openClosePanel]="isPanelOpen ? 'open' : 'closed'">

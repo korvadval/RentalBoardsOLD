@@ -6,6 +6,7 @@
 }
 .containerDisc{
     text-align: -webkit-center;
+    padding: 0 0 20px 0;
 }
 .listDisc{
     display: flex;
@@ -22,6 +23,7 @@
     border-width: 1px;
     border-color: #00000099;
     cursor: pointer;
+    box-shadow: 0px 0px 10px 0px #000000ba;
 }
 .imgDisc{
     width: 100%;

@@ -1,33 +1,38 @@
-.containerFooter{
-    margin: 20px 0 0 0;
+.containerFooter {
+  margin: 20px 0 0 0;
 }
-.listFooter{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+.listFooter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.itemFooter{
-    color: #6A92BB;
-    text-shadow: none;
-    font-size: 45px;
-    margin: 0px 25px 0 25px;
-    border-width: 4px;
-    border-style: solid;
-    border-radius: 50%;
-    border-color: #6a92bb9c;
-    width: 70px;
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+.itemFooter {
+  color: #6a92bb;
+  text-shadow: none;
+  font-size: 45px;
+  margin: 0px 25px 0 25px;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: #6a92bb9c;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 0px #000000ba;
 }
-.tFooter{
-    margin: 15px 0 15px 0px;
-    color: #000000;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 20px;
-    text-shadow: none;
+.itemFooter:active {
+    box-shadow: inset 0px 0px 10px 0px #000000;
+    font-size: 43px;
+}
+.tFooter {
+  margin: 15px 0 15px 0px;
+  color: #000000;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-shadow: none;
 }

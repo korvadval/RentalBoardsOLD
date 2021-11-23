@@ -1,45 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-    margin: 0;
-    font: 15px sans-serif;
+  margin: 0;
+  font: 15px sans-serif;
 }
-.notScrolling{
-    overflow: hidden;
+.notScrolling {
+  overflow: hidden;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-hr{
-    width: 100px;
-    height: 5px;
-    background-color: #617F9E;
+hr {
+  width: 100px;
+  height: 5px;
+  background-color: #617f9e;
 }
-.anchor{
-    position: relative;
-    top: -70px;
+.anchor {
+  position: relative;
+  top: -70px;
 }
 .unselectable {
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Chrome/Safari/Opera */
-    -khtml-user-select: none; /* Konqueror */
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
-    user-select: none;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
-.text{
-    color: #FFFFFF;
-    font-weight: bold;
-    font-size: 16px;
-    text-decoration: none;
-    line-height: 46px;
-    text-align: center;
-    text-shadow: 1px 1px 1px rgb(0 0 0);
+.text {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 46px;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgb(0 0 0);
 }
-@media only screen and (max-width: 700px){
-    .content{
-        margin: 45px 0px 0px 0px !important;
-    }
-    .anchor{
-        top: -45px;
-    }
+@media only screen and (max-width: 700px) {
+  .content {
+    margin: 45px 0px 0px 0px !important;
+  }
+  .anchor {
+    top: -45px;
+  }
 }

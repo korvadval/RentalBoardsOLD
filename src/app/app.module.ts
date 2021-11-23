@@ -22,7 +22,7 @@ import { DialogAddClientComponent } from './admin-site/dialog-add-client/dialog-
 import { LoginComponent } from './admin-site/login/login.component';
 
 const appRoutes: Routes =[
-  {path:'admin', component:AdminSiteMainComponent},
+  //{path:'admin', component:AdminSiteMainComponent},
   {path:'',component:GuestSiteMainComponent},
 ]
 

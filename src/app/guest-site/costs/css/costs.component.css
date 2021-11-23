@@ -1,36 +1,40 @@
-.backgroundCosts{
-    background-image: url(src/assets/images/costsBG.jpg);
-    height: 600px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: scroll;
-    background-size: cover;
+.backgroundCosts {
+  background-image: url(src/assets/images/costsBG.jpg);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  box-shadow: 0px 0px 10px 0px #000000;
 }
-.tCosts1{
-    padding: 40px 0px 10px 0px;
-    font-size: 40px;
+.tCosts1 {
+  padding: 40px 0px 10px 0px;
+  font-size: 40px;
 }
-.tCosts2{
-    
-    padding: 20px 0px 10px 0px;
-    font-weight: normal;
-    font-size: 27px;
-    line-height: 30px;
+.tCosts2 {
+  padding: 20px 0px 10px 0px;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 30px;
 }
-.tCosts3{
-    padding: 40px 0px 10px 0px;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 27px;
+.tCosts3 {
+  padding: 40px 0px 10px 0px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 27px;
 }
-.containerButtonCosts{
-    padding: 30px 0px 0px 0px;
-    text-align: -webkit-center;
+.containerButtonCosts {
+  padding: 30px 0px 0px 0px;
+  text-align: -webkit-center;
 }
-.buttonCosts{
-    border: 2px solid #FFFFFF;
-    font-weight: normal;
-    font-size: 19px;
-    width: 300px;
-    height: 46px;
+.buttonCosts {
+  border: 2px solid #ffffff;
+  font-weight: normal;
+  font-size: 19px;
+  width: 300px;
+  height: 46px;
+  box-shadow: 0px 0px 10px 5px #000000bd;
+}
+.buttonCosts:active {
+  box-shadow: inset 0px 0px 12px 1px #000000;
 }
